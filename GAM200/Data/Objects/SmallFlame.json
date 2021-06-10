@@ -1,0 +1,32 @@
+{
+"Collider":{"type":"circle",
+            "radius":50,
+            "dynamic":false,
+            "block":false
+           },
+"Physics":"",
+"Sprite":{"image":"Data/Textures/SmallFlame.png",
+          "rows":1,
+          "columns":1,
+          "visible":true,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"ParticleEmitter":{ "max":12,
+          "time":2,
+          "radius":15,
+          "size":7.0,
+          "red":1.0,
+          "green":0.332597,
+          "blue":0.2,
+          "alpha":0.950276,
+          "type":1,
+          "behavior":3
+        },   
+"Transform":{"x":0,
+             "y":0,
+             "scale":0.26
+            }
+}

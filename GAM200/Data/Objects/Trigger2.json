@@ -1,0 +1,40 @@
+{
+"ResType":"trigger",
+"Color":"none",
+"Debug":"",
+"Spawn":{"Trigger Type":0,
+        "Obj Type":"Banshee",
+        "Pos X":300.0,
+        "Pos Y": -50.0
+        },
+"Aggro":{"Trigger Type":0,
+       "Enemy Name":"Banshee",
+       "Toggle":true
+        },
+"SetActive":{"Trigger Type":0,
+            "Object Name":"",
+            "Active":true
+            },
+"Audio":{
+        "Data/Audio/EnemyAggro.wav":0
+        },
+"Collider":{"type":"circle",
+            "radius":66,
+            "dynamic":false,
+            "block":false
+           },
+"Physics":"",
+"Sprite":{"image":"Data/Textures/EventDot.png",
+          "rows":1,
+          "columns":1,
+          "visible":false,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":2
+            }
+}

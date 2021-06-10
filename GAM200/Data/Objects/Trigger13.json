@@ -1,0 +1,31 @@
+{
+"ResType":"trigger",
+"Color":"none",
+"SetInvincible":{"Trigger Type":1,
+              "Object Name":"Banshee",
+              "Invincible":false
+         },
+"Debug":"",
+"Audio":{
+          "Data/Audio/GhostDie.wav":1
+        },
+"Collider":{"type":"circle",
+            "radius":64,
+            "dynamic":false,
+            "block":false
+           },
+"Physics":"",
+"Sprite":{"image":"Data/Textures/EventDot.png",
+          "rows":1,
+          "columns":1,
+          "visible":false,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":1
+            }         
+}

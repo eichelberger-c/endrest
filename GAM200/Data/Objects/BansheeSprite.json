@@ -1,0 +1,23 @@
+{
+"ResType":"no",
+"Color":"none",
+"Animation":{"begin":0,
+             "end":59,
+             "duration":0.2,
+             "animate":true
+            },
+"Physics":"",
+"Sprite":{"image":"Data/Textures/BansheeAnimation.png",
+          "rows":8,
+          "columns":8,
+          "visible":true,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":1
+            }
+}

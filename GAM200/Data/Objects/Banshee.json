@@ -1,0 +1,38 @@
+{
+"ResType":"enemy",
+"Color":"green",
+"Animation":{"begin":0,
+             "end":59,
+             "duration":60,
+             "animate":true
+            },
+"Audio":{
+	      "Data/Audio/GhostDie.wav":4,
+	      "Data/Audio/EnemyAggro.wav":5
+	    },
+"Behavior":"SlowChase",
+"Collider":{"type":"circle",
+            "radius":25,
+            "dynamic":false,
+            "block":false
+           },
+"Health":15,
+"Physics":"",
+  "Debug": "",
+"Sprite":{"image":"Data/Textures/BansheeAnimation.png",
+          "rows":8,
+          "columns":8,
+          "visible":true,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Stats":{"type":"Banshee",
+          "attackPower":5
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":1
+            }
+}

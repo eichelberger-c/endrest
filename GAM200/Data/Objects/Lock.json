@@ -1,0 +1,17 @@
+{
+"Physics":"",
+  "Debug": "",
+"Sprite":{"image":"Data/Textures/Lock.png",
+          "rows":1,
+          "columns":1,
+          "visible":true,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":2
+            }
+}

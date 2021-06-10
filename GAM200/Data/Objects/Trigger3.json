@@ -1,0 +1,32 @@
+{
+"ResType":"trigger",
+"Color":"none",
+"Debug":"",
+"Spawn":{"Trigger Type":2,
+         "Obj Type":"Key",
+         "Pos X":300.0,
+         "Pos Y": -50.0
+        },
+"Audio":{
+          "Data/Audio/GhostDie.wav":1
+        },
+"Collider":{"type":"circle",
+            "radius":36,
+            "dynamic":false,
+            "block":false
+           },
+"Physics":"",
+"Sprite":{"image":"Data/Textures/EventDot.png",
+          "rows":1,
+          "columns":1,
+          "visible":false,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":1
+            }
+}

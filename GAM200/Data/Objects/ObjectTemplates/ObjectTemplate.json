@@ -1,0 +1,11 @@
+{
+  "Sprite": { "image": "Data/Textures/Background.png",
+  			   "rows": 1,
+  			   "columns": 1
+  			},
+  "Physics": "",
+  "Audio": "Data/Audio/swish.wav",
+  "Transform": { "x" : 0.0, 
+                 "y" : 0.0
+               }
+}

@@ -1,0 +1,25 @@
+{
+  "Collider": { "type" : "circle",
+                "radius" : 0.2
+              },
+  "Physics": "",
+  "Behavior": "SlowChase",
+  "Animation": { "begin": 0,
+			     "end": 59, 
+			     "duration": 0.200,
+			     "animate": true
+                },
+  "Audio": "Data/Audio/swish.wav",
+  "Sprite": { "image": "Data/Textures/BansheeAnimation.png",
+  			  "rows": 8,
+  			  "columns": 8,
+  			  "visible": true,
+              "red": 1.0,
+              "green": 1.0,
+              "blue": 1.0,
+              "alpha": 1.0
+  		    },
+  "Transform": { "x" : 0.0, 
+                 "y" : 0.0
+              }
+}

@@ -1,0 +1,41 @@
+{
+"ResType":"enemy",
+"Color":"green",
+"Audio":{"Data/Audio/GhostDie.wav":4},
+"Behavior":"Necromancer",
+"Collider":{"type":"circle",
+            "radius":35,
+            "dynamic":false,
+            "block":false
+           },
+"Stats":{"type":"Necromancer",
+            "attackPower":7
+           },
+"Health":15,
+"Physics":"",
+"Debug": "",
+"Sprite": {"image": "Data/Textures/necromancer1.png",
+		       "rows": 1,
+		       "columns": 1,
+		       "visible": true,
+		       "red": 1,
+		       "green": 1,
+		       "blue": 1,
+		       "alpha": 1
+	},
+"ParticleEmitter":{ "max":0,
+          "time":1,
+          "radius":40,
+          "size":9.3,
+          "red":0.0,
+          "green":0.0,
+          "blue":0.0,
+          "alpha":1,
+          "type":0,
+          "behavior":3
+        },   
+"Transform":{"x":0,
+             "y":0,
+             "scale":1
+            }
+}

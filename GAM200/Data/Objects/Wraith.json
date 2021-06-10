@@ -1,0 +1,36 @@
+{
+"ResType":"enemy",
+"Animation":{"begin":0,
+             "end":79,
+             "duration":60,
+             "animate":true
+            },
+"Audio":{
+         "Data/Audio/GhostDie.wav":4
+        },
+"Behavior":"FastChase",
+"Collider":{"type":"circle",
+            "radius":25,
+            "dynamic":false,
+            "block":false
+           },
+"Health":15,
+"Physics":"",
+  "Debug": "",
+"Sprite":{"image":"Data/Textures/WraithAnimation.png",
+          "rows":9,
+          "columns":9,
+          "visible":true,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Stats":{"type":"Wraith",
+          "attackPower":6
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":1
+            }
+}

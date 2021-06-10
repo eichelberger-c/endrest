@@ -1,0 +1,19 @@
+{
+  "Collider": { "type" : "circle",
+                "radius" : 0.2
+              },
+  "Physics": "",
+  "Audio": "Data/Audio/swish.wav",
+  "Sprite": { "image": "Data/Textures/Protagonist_Final_TransparentBG_Placeholder.png",
+		      "rows": 1,
+		      "columns": 1,
+              "visible": true,
+              "red": 1.0,
+              "green": 1.0,
+              "blue": 1.0,
+              "alpha": 1.0
+  			   },
+  "Transform": { "x" : 0.0, 
+                 "y" : 0.0
+               }
+}

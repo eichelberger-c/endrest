@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{05EEA793-4B5A-4B2B-8EAF-84942047ADDB}</ProjectGuid>
+    <RootNamespace>EngineTests</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\GAM200\Code\OpenGL-glfw-glew-glm-freeimage-imgui-SOIL2debug-PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\GAM200\Code\OpenGL-glfw-glew-glm-freeimage-imgui-SOIL2-PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)lib\imgui-master;$(SolutionDir)lib\glm-0.9.9.0;$(SolutionDir)lib\glew-2.0.0\include;$(SolutionDir)lib\glfw-3.2.1.bin.WIN32\include;$(SolutionDir)lib\SOIL2\include;$(SolutionDir)lib\FMOD\inc;$(SolutionDir)lib\rapidjson;$(SolutionDir)lib\catch;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glew-2.0.0\lib\Release\WIN32;$(SolutionDir)lib\glfw-3.2.1.bin.WIN32\lib-vc2015;$(SolutionDir)lib\FMOD\lib;$(SolutionDir)lib\SOIL2\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)lib\imgui-master;$(SolutionDir)lib\glm-0.9.9.0;$(SolutionDir)lib\glew-2.0.0\include;$(SolutionDir)lib\glfw-3.2.1.bin.WIN32\include;$(SolutionDir)lib\SOIL2\include;$(SolutionDir)lib\FMOD\inc;$(SolutionDir)lib\rapidjson;$(SolutionDir)lib\catch;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glew-2.0.0\lib\Release\WIN32;$(SolutionDir)lib\glfw-3.2.1.bin.WIN32\lib-vc2015;$(SolutionDir)lib\FMOD\lib;$(SolutionDir)lib\SOIL2\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)lib\imgui-master;$(SolutionDir)lib\glm-0.9.9.0;$(SolutionDir)lib\glew-2.0.0\include;$(SolutionDir)lib\glfw-3.2.1.bin.WIN32\include;$(SolutionDir)lib\SOIL2\include;$(SolutionDir)lib\FMOD\inc;$(SolutionDir)lib\rapidjson;$(SolutionDir)lib\catch;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glew-2.0.0\lib\Release\WIN32;$(SolutionDir)lib\glfw-3.2.1.bin.WIN32\lib-vc2015;$(SolutionDir)lib\FMOD\lib;$(SolutionDir)lib\SOIL2\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)lib\imgui-master;$(SolutionDir)lib\glm-0.9.9.0;$(SolutionDir)lib\glew-2.0.0\include;$(SolutionDir)lib\glfw-3.2.1.bin.WIN32\include;$(SolutionDir)lib\SOIL2\include;$(SolutionDir)lib\FMOD\inc;$(SolutionDir)lib\rapidjson;$(SolutionDir)lib\catch;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glew-2.0.0\lib\Release\WIN32;$(SolutionDir)lib\glfw-3.2.1.bin.WIN32\lib-vc2015;$(SolutionDir)lib\FMOD\lib;$(SolutionDir)lib\SOIL2\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GAM200\Code\Aggro.cpp" />
+    <ClCompile Include="..\GAM200\Code\Animation.cpp" />
+    <ClCompile Include="..\GAM200\Code\Area.cpp" />
+    <ClCompile Include="..\GAM200\Code\Audio.cpp" />
+    <ClCompile Include="..\GAM200\Code\AudioEngine.cpp" />
+    <ClCompile Include="..\GAM200\Code\Behavior.cpp" />
+    <ClCompile Include="..\GAM200\Code\BehaviorScripts.cpp" />
+    <ClCompile Include="..\GAM200\Code\BehaviorScriptTemplate.cpp" />
+    <ClCompile Include="..\GAM200\Code\CallBacks.cpp" />
+    <ClCompile Include="..\GAM200\Code\Camera.cpp" />
+    <ClCompile Include="..\GAM200\Code\ChangeMusic.cpp" />
+    <ClCompile Include="..\GAM200\Code\Collect.cpp" />
+    <ClCompile Include="..\GAM200\Code\Collider.cpp" />
+    <ClCompile Include="..\GAM200\Code\ColliderCircle.cpp" />
+    <ClCompile Include="..\GAM200\Code\ColliderSquare.cpp" />
+    <ClCompile Include="..\GAM200\Code\ColliderSys.cpp" />
+    <ClCompile Include="..\GAM200\Code\CompCreator.cpp" />
+    <ClCompile Include="..\GAM200\Code\Component.cpp" />
+    <ClCompile Include="..\GAM200\Code\Controller.cpp" />
+    <ClCompile Include="..\GAM200\Code\Debug.cpp" />
+    <ClCompile Include="..\GAM200\Code\DebugSystem.cpp" />
+    <ClCompile Include="..\GAM200\Code\Door.cpp" />
+    <ClCompile Include="..\GAM200\Code\Editor.cpp" />
+    <ClCompile Include="..\GAM200\Code\EndGs.cpp" />
+    <ClCompile Include="..\GAM200\Code\Engine.cpp" />
+    <ClCompile Include="..\GAM200\Code\EventComp.cpp" />
+    <ClCompile Include="..\GAM200\Code\EventManager.cpp" />
+    <ClCompile Include="..\GAM200\Code\Fade.cpp" />
+    <ClCompile Include="..\GAM200\Code\FastChase.cpp" />
+    <ClCompile Include="..\GAM200\Code\FileUtils.cpp" />
+    <ClCompile Include="..\GAM200\Code\FlashSprite.cpp" />
+    <ClCompile Include="..\GAM200\Code\Font.cpp" />
+    <ClCompile Include="..\GAM200\Code\FrameRateController.cpp" />
+    <ClCompile Include="..\GAM200\Code\GameGs.cpp" />
+    <ClCompile Include="..\GAM200\Code\GameStateManager.cpp" />
+    <ClCompile Include="..\GAM200\Code\GameStateTable.cpp" />
+    <ClCompile Include="..\GAM200\Code\Graphics.cpp" />
+    <ClCompile Include="..\GAM200\Code\Health.cpp" />
+    <ClCompile Include="..\GAM200\Code\HealthBar.cpp" />
+    <ClCompile Include="..\GAM200\Code\ImGuiafx.cpp" />
+    <ClCompile Include="..\GAM200\Code\Input.cpp" />
+    <ClCompile Include="..\GAM200\Code\Inspection.cpp" />
+    <ClCompile Include="..\GAM200\Code\Key.cpp" />
+    <ClCompile Include="..\GAM200\Code\Lantern.cpp" />
+    <ClCompile Include="..\GAM200\Code\Lighting.cpp" />
+    <ClCompile Include="..\GAM200\Code\Mat2D.cpp" />
+    <ClCompile Include="..\GAM200\Code\Matrix2D.cpp" />
+    <ClCompile Include="..\GAM200\Code\Menu.cpp" />
+    <ClCompile Include="..\GAM200\Code\MenuGs.cpp" />
+    <ClCompile Include="..\GAM200\Code\Mesh.cpp" />
+    <ClCompile Include="..\GAM200\Code\MimicPlayer.cpp" />
+    <ClCompile Include="..\GAM200\Code\Necromancer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="..\GAM200\Code\Obj.cpp" />
+    <ClCompile Include="..\GAM200\Code\ObjFactory.cpp" />
+    <ClCompile Include="..\GAM200\Code\ObjManager.cpp" />
+    <ClCompile Include="..\GAM200\Code\ParticleEmitter.cpp" />
+    <ClCompile Include="..\GAM200\Code\PeepHole.cpp" />
+    <ClCompile Include="..\GAM200\Code\Physics.cpp" />
+    <ClCompile Include="..\GAM200\Code\PhysicsSys.cpp" />
+    <ClCompile Include="..\GAM200\Code\Player.cpp" />
+    <ClCompile Include="..\GAM200\Code\PushBlock.cpp" />
+    <ClCompile Include="..\GAM200\Code\PushBlockManager.cpp" />
+    <ClCompile Include="..\GAM200\Code\Score.cpp" />
+    <ClCompile Include="..\GAM200\Code\Screen.cpp" />
+    <ClCompile Include="..\GAM200\Code\ScreenManager.cpp" />
+    <ClCompile Include="..\GAM200\Code\Serialization.cpp" />
+    <ClCompile Include="..\GAM200\Code\SetActive.cpp" />
+    <ClCompile Include="..\GAM200\Code\SetDoor.cpp" />
+    <ClCompile Include="..\GAM200\Code\SetInvincible.cpp" />
+    <ClCompile Include="..\GAM200\Code\SetVisible.cpp" />
+    <ClCompile Include="..\GAM200\Code\Shader.cpp" />
+    <ClCompile Include="..\GAM200\Code\SlowChase.cpp" />
+    <ClCompile Include="..\GAM200\Code\Spaces.cpp" />
+    <ClCompile Include="..\GAM200\Code\Spawn.cpp" />
+    <ClCompile Include="..\GAM200\Code\Spawner.cpp" />
+    <ClCompile Include="..\GAM200\Code\SpawnerManager.cpp" />
+    <ClCompile Include="..\GAM200\Code\Sprite.cpp" />
+    <ClCompile Include="..\GAM200\Code\SpriteSource.cpp" />
+    <ClCompile Include="..\GAM200\Code\Stats.cpp" />
+    <ClCompile Include="..\GAM200\Code\stdafx.cpp" />
+    <ClCompile Include="..\GAM200\Code\System.cpp" />
+    <ClCompile Include="..\GAM200\Code\TextureSys.cpp" />
+    <ClCompile Include="..\GAM200\Code\Timer.cpp" />
+    <ClCompile Include="..\GAM200\Code\TitleGs.cpp" />
+    <ClCompile Include="..\GAM200\Code\ToggleDark.cpp" />
+    <ClCompile Include="..\GAM200\Code\Trace.cpp" />
+    <ClCompile Include="..\GAM200\Code\Transform.cpp" />
+    <ClCompile Include="..\GAM200\Code\Trigger.cpp" />
+    <ClCompile Include="..\GAM200\Code\UnitTestComponents.cpp" />
+    <ClCompile Include="..\GAM200\Code\UnitTestMath.cpp" />
+    <ClCompile Include="..\GAM200\Code\UnitTestMain.cpp" />
+    <ClCompile Include="..\GAM200\Code\UnitTestSystems.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="..\GAM200\Code\Utils.cpp" />
+    <ClCompile Include="..\GAM200\Code\Vec2D.cpp" />
+    <ClCompile Include="..\lib\imgui-master\imgui.cpp" />
+    <ClCompile Include="..\lib\imgui-master\imgui_demo.cpp" />
+    <ClCompile Include="..\lib\imgui-master\imgui_draw.cpp" />
+    <ClCompile Include="..\lib\imgui-master\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\lib\imgui-master\imgui_impl_opengl3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\GAM200\Code\Aggro.h" />
+    <ClInclude Include="..\GAM200\Code\Animation.h" />
+    <ClInclude Include="..\GAM200\Code\Area.h" />
+    <ClInclude Include="..\GAM200\Code\Audio.h" />
+    <ClInclude Include="..\GAM200\Code\AudioEngine.h" />
+    <ClInclude Include="..\GAM200\Code\Behavior.h" />
+    <ClInclude Include="..\GAM200\Code\BehaviorScripts.h" />
+    <ClInclude Include="..\GAM200\Code\BehaviorScriptTemplate.h" />
+    <ClInclude Include="..\GAM200\Code\CallBacks.h" />
+    <ClInclude Include="..\GAM200\Code\Camera.h" />
+    <ClInclude Include="..\GAM200\Code\ChangeMusic.h" />
+    <ClInclude Include="..\GAM200\Code\Collect.h" />
+    <ClInclude Include="..\GAM200\Code\Collider.h" />
+    <ClInclude Include="..\GAM200\Code\ColliderCircle.h" />
+    <ClInclude Include="..\GAM200\Code\ColliderSquare.h" />
+    <ClInclude Include="..\GAM200\Code\ColliderSys.h" />
+    <ClInclude Include="..\GAM200\Code\CompCreator.h" />
+    <ClInclude Include="..\GAM200\Code\Component.h" />
+    <ClInclude Include="..\GAM200\Code\Controller.h" />
+    <ClInclude Include="..\GAM200\Code\Debug.h" />
+    <ClInclude Include="..\GAM200\Code\DebugSystem.h" />
+    <ClInclude Include="..\GAM200\Code\Door.h" />
+    <ClInclude Include="..\GAM200\Code\Editor.h" />
+    <ClInclude Include="..\GAM200\Code\EndGs.h" />
+    <ClInclude Include="..\GAM200\Code\Engine.h" />
+    <ClInclude Include="..\GAM200\Code\EventComp.h" />
+    <ClInclude Include="..\GAM200\Code\EventManager.h" />
+    <ClInclude Include="..\GAM200\Code\Events.h" />
+    <ClInclude Include="..\GAM200\Code\Fade.h" />
+    <ClInclude Include="..\GAM200\Code\FastChase.h" />
+    <ClInclude Include="..\GAM200\Code\FileUtils.h" />
+    <ClInclude Include="..\GAM200\Code\FlashSprite.h" />
+    <ClInclude Include="..\GAM200\Code\Font.h" />
+    <ClInclude Include="..\GAM200\Code\FrameRateController.h" />
+    <ClInclude Include="..\GAM200\Code\GameGs.h" />
+    <ClInclude Include="..\GAM200\Code\GameStateManager.h" />
+    <ClInclude Include="..\GAM200\Code\GameStateTable.h" />
+    <ClInclude Include="..\GAM200\Code\Graphics.h" />
+    <ClInclude Include="..\GAM200\Code\Health.h" />
+    <ClInclude Include="..\GAM200\Code\HealthBar.h" />
+    <ClInclude Include="..\GAM200\Code\ImGuiafx.h" />
+    <ClInclude Include="..\GAM200\Code\Input.h" />
+    <ClInclude Include="..\GAM200\Code\Inspection.h" />
+    <ClInclude Include="..\GAM200\Code\Key.h" />
+    <ClInclude Include="..\GAM200\Code\Lantern.h" />
+    <ClInclude Include="..\GAM200\Code\Mat2D.h" />
+    <ClInclude Include="..\GAM200\Code\Matrix2D.h" />
+    <ClInclude Include="..\GAM200\Code\Menu.h" />
+    <ClInclude Include="..\GAM200\Code\MenuGs.h" />
+    <ClInclude Include="..\GAM200\Code\Mesh.h" />
+    <ClInclude Include="..\GAM200\Code\MimicPlayer.h" />
+    <ClInclude Include="..\GAM200\Code\Necromancer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="..\GAM200\Code\Obj.h" />
+    <ClInclude Include="..\GAM200\Code\ObjFactory.h" />
+    <ClInclude Include="..\GAM200\Code\ObjManager.h" />
+    <ClInclude Include="..\GAM200\Code\ParticleEmitter.h" />
+    <ClInclude Include="..\GAM200\Code\PeepHole.h" />
+    <ClInclude Include="..\GAM200\Code\Physics.h" />
+    <ClInclude Include="..\GAM200\Code\PhysicsSys.h" />
+    <ClInclude Include="..\GAM200\Code\Player.h" />
+    <ClInclude Include="..\GAM200\Code\PushBlock.h" />
+    <ClInclude Include="..\GAM200\Code\PushBlockManager.h" />
+    <ClInclude Include="..\GAM200\Code\Score.h" />
+    <ClInclude Include="..\GAM200\Code\Screen.h" />
+    <ClInclude Include="..\GAM200\Code\ScreenManager.h" />
+    <ClInclude Include="..\GAM200\Code\Serialization.h" />
+    <ClInclude Include="..\GAM200\Code\SetActive.h" />
+    <ClInclude Include="..\GAM200\Code\SetDoor.h" />
+    <ClInclude Include="..\GAM200\Code\SetInvincible.h" />
+    <ClInclude Include="..\GAM200\Code\SetVisible.h" />
+    <ClInclude Include="..\GAM200\Code\Shader.h" />
+    <ClInclude Include="..\GAM200\Code\SlowChase.h" />
+    <ClInclude Include="..\GAM200\Code\Spaces.h" />
+    <ClInclude Include="..\GAM200\Code\Spawn.h" />
+    <ClInclude Include="..\GAM200\Code\spawner.h" />
+    <ClInclude Include="..\GAM200\Code\SpawnerManager.h" />
+    <ClInclude Include="..\GAM200\Code\Sprite.h" />
+    <ClInclude Include="..\GAM200\Code\SpriteSource.h" />
+    <ClInclude Include="..\GAM200\Code\Stats.h" />
+    <ClInclude Include="..\GAM200\Code\stdafx.h" />
+    <ClInclude Include="..\GAM200\Code\System.h" />
+    <ClInclude Include="..\GAM200\Code\targetver.h" />
+    <ClInclude Include="..\GAM200\Code\Timer.h" />
+    <ClInclude Include="..\GAM200\Code\TitleGs.h" />
+    <ClInclude Include="..\GAM200\Code\ToggleDark.h" />
+    <ClInclude Include="..\GAM200\Code\Trace.h" />
+    <ClInclude Include="..\GAM200\Code\Transform.h" />
+    <ClInclude Include="..\GAM200\Code\Trigger.h" />
+    <ClInclude Include="..\GAM200\Code\UnitTest.h" />
+    <ClInclude Include="..\GAM200\Code\Utils.h" />
+    <ClInclude Include="..\GAM200\Code\Vec2D.h" />
+    <ClInclude Include="..\lib\imgui-master\imconfig.h" />
+    <ClInclude Include="..\lib\imgui-master\imgui.h" />
+    <ClInclude Include="..\lib\imgui-master\imgui_impl_glfw.h" />
+    <ClInclude Include="..\lib\imgui-master\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\lib\imgui-master\imgui_internal.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

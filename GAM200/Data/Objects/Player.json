@@ -1,0 +1,30 @@
+{
+"Animation":{"begin":0,
+             "end":35,
+             "duration":60.0,
+             "animate":true
+            },
+"Audio":{},
+"Collider":{"type":"circle",
+            "radius":40,
+            "dynamic":false,
+            "block":false
+           },
+"Health":100,
+"Physics":"",
+"Debug":"",
+"Score":"",
+"Sprite":{"image":"Data/Textures/ProtagIdleAnimation.png",
+          "rows":7,
+          "columns":7,
+          "visible":true,
+          "red":1,
+          "green":0.99999,
+          "blue":0.99999,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":1.44
+            }
+}

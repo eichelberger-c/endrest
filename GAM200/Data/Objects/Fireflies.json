@@ -1,0 +1,28 @@
+{
+"Physics":"",
+  "Debug": "",
+  "ParticleEmitter":{ "max":0,
+                    "time":1,
+                    "radius":90,
+                    "size":10.0,
+                    "red":0.0,
+                    "green":1.0,
+                    "blue":0.0,
+                    "alpha":1.0,
+                    "type":2,
+                    "behavior":1
+                  },
+"Sprite":{"image":"Data/Textures/default.png",
+          "rows":1,
+          "columns":1,
+          "visible":true,
+          "red":0,
+          "green":1,
+          "blue":0,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":1
+            }
+}

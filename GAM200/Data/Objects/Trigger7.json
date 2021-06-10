@@ -1,0 +1,50 @@
+{
+"ResType":"trigger",
+"Color":"none",
+"Debug":"",
+"ChangeMusic":{"Trigger Type":0,
+         "Filename":"TickTock"
+        },
+"SetVisible":{"Trigger Type":0,
+              "Object Name":"TickTock",
+              "Visible":false,
+              "Customize":true
+         },
+"SetActive":{"Trigger Type":0,
+          "Object Name":"Trigger8B1",
+          "Active":true
+     },
+"Audio":{
+          "Data/Audio/GhostDie.wav":0
+        },
+"Collider":{"type":"circle",
+            "radius":120,
+            "dynamic":false,
+            "block":false
+           },
+"Physics":"",
+"Sprite":{"image":"Data/Textures/EventDot.png",
+          "rows":1,
+          "columns":1,
+          "visible":false,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":3.6
+            },
+"ParticleEmitter":{ "max":20,
+               "time":1,
+               "radius":90,
+               "size":10.0,
+               "red":1.0,
+               "green":0.0,
+               "blue":1.0,
+               "alpha":1,
+               "type":0,
+               "behavior":3
+             }           
+}

@@ -1,0 +1,12 @@
+{
+"type":"area",
+"north":"",
+"south":"",
+"east":"",
+"west":"NonTiledMapTestArea",
+"enemyreset":"",
+"puzzlereset":"",
+"background":"CathedralLayout01.png",
+"objects":[
+]
+}

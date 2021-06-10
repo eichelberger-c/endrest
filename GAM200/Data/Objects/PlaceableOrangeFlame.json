@@ -1,0 +1,25 @@
+{
+"ResType":"wall",
+"Collider":{"type":"square",
+            "width":500,
+            "height":400,
+            "dynamic":false,
+			"block":false
+           },
+"Physics":"",
+"Debug":"",
+	"Sprite": {
+		"image": "Data/Textures/icon001_TSO_icon.ico",
+		"rows": 1,
+		"columns": 1,
+		"visible": true,
+		"red": 1,
+		"green": 1,
+		"blue": 1,
+		"alpha": 1
+	},
+"Transform":{"x":0,
+             "y":0,
+             "scale":2
+            }
+}

@@ -1,0 +1,28 @@
+{
+  "ResType":"catalyst",
+  "Color":"blue",
+  "Sprite": { "image": "Data/Textures/BansheeTears.png",
+  			   "rows":1,
+            "columns":1,
+            "visible":false,
+            "red":1,
+            "green":1,
+            "blue":1,
+            "alpha":0
+        },
+  "Behavior":"Collect",
+  "Collider":{"type":"circle",
+            "radius":16,
+            "dynamic":true,
+            "block":false
+           },
+  "Physics": "",
+    "Debug": "",
+  "Audio":{
+
+          },
+  "Transform": { "x" : 0.0, 
+                 "y" : 0.0,
+                 "scale" : 0.5
+               }
+}

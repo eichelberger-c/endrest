@@ -1,0 +1,17 @@
+{
+"type":"area",
+"north":"",
+"south":"NORTH_AREA_G",
+"east":"",
+"west":"",
+"enemyreset":"",
+"puzzlereset":"",
+"background":"",
+"objects":[
+  {
+   "name":"NecromancerSymbol",
+   "type":"NecromancerSymbol",
+   "x":0,
+   "y":0
+  }]
+}

@@ -1,0 +1,162 @@
+{
+	"type": "area",
+	"north": "",
+	"south": "",
+	"east": "NonTiledMapTestArea",
+	"west": "",
+	"enemyreset": "all",
+	"puzzlereset": "",
+	"background": "CathedralLayout01.png",
+	"objects": [
+		{
+			"name": "NecromancerSymbol",
+			"type": "NecromancerSymbol",
+			"x": 0,
+			"y": -100
+		},
+		{
+			"name": "CathedralAltar",
+			"type": "CathedralAltar",
+			"x": -8.99998,
+			"y": 377.522
+		},
+		{
+			"name": "Door",
+			"type": "Door",
+			"x": 450,
+			"y": 400
+		},
+		{
+			"name": "CathedralChairFront",
+			"type": "CathedralChairFront",
+			"x": -465,
+			"y": 339.292
+		},
+		{
+			"name": "CathedralChairBack",
+			"type": "CathedralChairBack",
+			"x": -74.88,
+			"y": 273.312
+		},
+		{
+			"name": "PushBlock",
+			"type": "PushBlock",
+			"x": -349.991,
+			"y": 147.921
+		},
+		{
+			"name": "CathedralChairBack",
+			"type": "CathedralChairBack",
+			"x": -464,
+			"y": -284
+		},
+		{
+			"name": "CathedralChairFront",
+			"type": "CathedralChairFront",
+			"x": -412.16,
+			"y": -303.84
+		},
+		{
+			"name": "CathedralChairBack",
+			"type": "CathedralChairBack",
+			"x": -122,
+			"y": -313
+		},
+		{
+			"name": "CathedralChairSide",
+			"type": "CathedralChairSide",
+			"x": -24.96,
+			"y": -353.952
+		},
+		{
+			"name": "CathedralChairBack",
+			"type": "CathedralChairBack",
+			"x": -279,
+			"y": -300
+		},
+		{
+			"name": "CathedralChairFront",
+			"type": "CathedralChairFront",
+			"x": 433.92,
+			"y": -349.92
+		},
+		{
+			"name": "CathedralChairSide",
+			"type": "CathedralChairSide",
+			"x": -575,
+			"y": -142
+		},
+		{
+			"name": "CathedralChairBack",
+			"type": "CathedralChairBack",
+			"x": -394.24,
+			"y": -322.848
+		},
+		{
+			"name": "CathedralChairFront",
+			"type": "CathedralChairFront",
+			"x": -292,
+			"y": -327
+		},
+		{
+			"name": "CathedralChairSide",
+			"type": "CathedralChairSide",
+			"x": -564,
+			"y": -2.00001
+		},
+		{
+			"name": "CathedralChairSide",
+			"type": "CathedralChairSide",
+			"x": 160.138,
+			"y": -344.851
+		},
+		{
+			"name": "CathedralChairBack",
+			"type": "CathedralChairBack",
+			"x": 209.665,
+			"y": -442.871
+		},
+		{
+			"name": "CathedralChairFront",
+			"type": "CathedralChairFront",
+			"x": 231.126,
+			"y": -312.772
+		},
+		{
+			"name": "CathedralChairBack",
+			"type": "CathedralChairBack",
+			"x": 349.166,
+			"y": -438.416
+		},
+		{
+			"name": "CathedralChairSide",
+			"type": "CathedralChairSide",
+			"x": 527.463,
+			"y": -328.812
+		},
+		{
+			"name": "PushBlock",
+			"type": "PushBlock",
+			"x": 259.2,
+			"y": -383.904
+		},
+		{
+			"name": "Banshee",
+			"type": "Banshee",
+			"x": 348.8,
+			"y": -33.696
+		},
+		{
+			"name": "Banshee",
+			"type": "Banshee",
+			"x": 0,
+			"y": 0
+		},
+		{
+			"name": "Wraith",
+			"type": "Wraith",
+			"x": -398.72,
+			"y": 257.184
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+"ResType":"trigger",
+"Color":"none",
+"SetVisible":{"Trigger Type":0,
+              "Object Name":"WindowCrackedD2",
+              "Visible":true
+             },
+"Debug":"",
+"SetActive":{"Trigger Type":0,
+              "Object Name":"Trigger",
+              "Active":true
+             },
+"Audio":{
+          "Data/Audio/GhostDie.wav":2,
+          "Data/Audio/WindowBreak.wav":1
+        },
+"Collider":{"type":"circle",
+            "radius":120,
+            "dynamic":false,
+            "block":false
+           },
+"Physics":"",
+"Sprite":{"image":"Data/Textures/EventDot.png",
+          "rows":1,
+          "columns":1,
+          "visible":false,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":3
+            }
+}

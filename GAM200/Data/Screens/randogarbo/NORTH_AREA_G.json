@@ -1,0 +1,12 @@
+{
+"type":"area",
+"north":"NORTH_AREA_O",
+"south":"Foyer",
+"east":"",
+"west":"",
+"enemyreset":"",
+"puzzlereset":"",
+"background":"",
+"objects":[
+]
+}

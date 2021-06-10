@@ -1,0 +1,41 @@
+{
+"ResType":"trigger",
+"Color":"none",
+"SetVisible":{"Trigger Type":1,
+              "Object Name":"TickTock",
+              "Visible":false,
+              "Customize":true
+         },
+"Debug":"",
+"Spawn":{"Trigger Type":1,
+        "Obj Type":"Key",
+        "Pos X":0.0,
+        "Pos Y": 0.0
+     },
+"SetActive":{"Trigger Type":1,
+      "Object Name":"Trigger14F1",
+      "Active":true
+     },      
+"Audio":{
+          "Data/Audio/GhostDie.wav":1
+        },
+"Collider":{"type":"circle",
+            "radius":64,
+            "dynamic":false,
+            "block":false
+           },
+"Physics":"",
+"Sprite":{"image":"Data/Textures/EventDot.png",
+          "rows":1,
+          "columns":1,
+          "visible":false,
+          "red":1,
+          "green":1,
+          "blue":1,
+          "alpha":1
+         },
+"Transform":{"x":0,
+             "y":0,
+             "scale":1
+            }         
+}

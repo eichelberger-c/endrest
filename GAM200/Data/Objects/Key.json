@@ -1,0 +1,37 @@
+{
+  "ResType":"item",
+  "Color":"none",
+  "Sprite": { "image": "Data/Textures/Key.png",
+  			   "rows":1,
+            "columns":1,
+            "visible":true,
+            "red":1,
+            "green":1,
+            "blue":1,
+            "alpha":1
+        },
+  "Behavior":"Collect",
+  "Key":"",
+  "Collider":{"type":"circle",
+            "radius":16,
+            "dynamic":false,
+            "block":false
+           },
+  "Physics": "",
+  "Debug": "",
+  "Transform": { "x" : 0.0, 
+                 "y" : 0.0,
+                 "scale" : 0.5
+               },
+"ParticleEmitter":{ "max":40,
+                "time":4,
+                "radius":30,
+                "size":9.5,
+                "red":0.823,
+                "green":0.831,
+                "blue":0.894,
+                "alpha":0.8,
+                "type":1,
+                "behavior":3
+              } 
+}
